@@ -11,11 +11,11 @@ local colors = {
 
 return {
   normal = {
-    a = { fg = colors.fg, bg = colors.blue, gui = "bold" },
+    a = { fg = colors.bg, bg = colors.blue, gui = "bold" },
     b = { fg = colors.fg, bg = colors.bg },
     c = { fg = colors.fg, bg = colors.bg },
   },
-  insert = { a = { fg = colors.fg, bg = colors.green, gui = "bold" } },
+  insert = { a = { fg = colors.bg, bg = colors.green, gui = "bold" } },
   visual = { a = { fg = colors.fg, bg = colors.red, gui = "bold" } },
   command = { a = { fg = colors.fg, bg = colors.bg, gui = "bold" } },
   replace = { a = { fg = colors.fg, bg = colors.bg, gui = "bold" } },
